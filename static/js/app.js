@@ -61,3 +61,7 @@ function handleClick() {
     // else return original set of data
 
 }
+
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+buildTable(tableData);
