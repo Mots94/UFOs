@@ -43,13 +43,14 @@ let filters = {};
 
 function updateFilters() {
 
-    let changedElement = d3.selectAll(this);
+    let changedElement = d3.select(this);
 
     let elementValues = changedElement.property("value");
     console.log(elementValues);
-
+    
     let filteredId = changedElement.attr("id");
     console.log(filteredId);
+    
 
     if (elementValues) {
 
@@ -74,7 +75,7 @@ function filterTable() {
 
     });
 
-buildTable(filteredData);
+    buildTable(filteredData);
 
 }
 
