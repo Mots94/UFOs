@@ -7,3 +7,7 @@ In this analysis, Dana would like to further develop her web application by incr
 This webpage could be used to drill down to one or a few UFO observations by starting with one filter and adding others to the original filter.  For example, if one was to filter by the date "1/12/2020" for this data set, below is what the observation table would look like.
 
 ![UFO1](https://github.com/Mots94/UFOs/blob/main/static/images/dateFilter.PNG)
+
+If a user was only searching for observations on a particular date, then filtering could stop here.  However, other users may want find observations on 1/12/2020 in a particular state.  Let's use Oregon as an example since there are two observations in the filtered table.  If a user types "or" into the "Enter a State" input box, the following filtered table would appear.
+
+![UFO2](https://github.com/Mots94/UFOs/blob/main/static/images/stateFilter.PNG)
