@@ -6,4 +6,4 @@ In this analysis, Dana would like to further develop her web application by incr
 ## Results
 This webpage could be used to drill down to one or a few UFO observations by starting with one filter and adding others to the original filter.  For example, if one was to filter by the date "1/12/2020" for this data set, below is what the observation table would look like.
 
-<img src="https://github.com/Mots94/UFOs/blob/main/static/images/dateFilter.PNG" width="1200" height="294">
+<img src="https://github.com/Mots94/UFOs/blob/main/static/images/dateFilter.PNG">
